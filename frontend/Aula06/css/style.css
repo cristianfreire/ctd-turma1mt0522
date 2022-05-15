@@ -1,0 +1,15 @@
+.body{
+    background-color: #ffffff;
+    color: #3c0272;
+}
+
+.text-highlight{
+    background-color: yellow;
+    color: black;
+}
+
+.especial-text{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
