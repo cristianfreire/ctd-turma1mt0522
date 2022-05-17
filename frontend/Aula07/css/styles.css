@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+
+header{
+    padding: 10px;
+    background-color: green;
+}
+
+div.job-title{
+    padding: 5px;
+    background-color: #ACACAC;
+}
+
+p {
+    color: white;
+}
+
+h2#high{
+    color: yellow;
+}
+
+footer{
+    background-color: #ACACAC;
+}
+
+ul li strong{
+    color: white;
+}
