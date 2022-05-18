@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+h2{
+    color: steelblue;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    color: #bdbdbd;
+}
+
+div.media-picture{
+    background-color: white;
+    height: 400px;
+    background-image: url('https://tm.ibxk.com.br/2021/10/07/07155749619281.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+span.review-score{
+    padding: 12px;
+    background-color: #e6bd09;
+}
+
+a{
+    color: yellow;                                                                                                                                                                                                            
+}
