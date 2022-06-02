@@ -74,7 +74,7 @@ main {
 }
 
 .background-batman {
-  background-image: url(/img/background-batman.png);
+  background-image: url("../img/background-batman.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
