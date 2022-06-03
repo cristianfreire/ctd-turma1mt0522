@@ -94,7 +94,7 @@ main {
 .background-arlequina {
   background-image: url("../img/background-arlequina.png");
   background-repeat: no-repeat;
-  background-color: cover;
+  background-size: cover;
 }
 
 .card__icone {
