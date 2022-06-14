@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/add_heroi.css" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <header>
+      <div class="desconto">
+        <span>20% de desconto em todos os produtos</span>
+      </div>
+      <nav class="barra">
+        <div class="barra__logo">
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+
+        <div class="barra__nome">
+          <h1>Nome da Loja</h1>
+        </div>
+      </nav>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Registrar-se</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="formulario-registro">
+        <h1>Adicionar seu super-herói</h1>
+        <p>Adicione seu personagem favorito completando as informações</p>
+
+        <div class="form">
+          <div class="form__left">
+            <div>
+              <label for="nome">*Nome</label>
+              <input type="text" id="nome" />
+            </div>
+
+            <div>
+              <label for="data_nascimento">Data de nascimento</label>
+              <input type="date" name="data_nascimento" id="data_nascimento" />
+            </div>
+
+            <div class="form__left-desc">
+              <input
+                type="text"
+                name="descricao"
+                id="descricao"
+                placeholder="Descrição"
+              />
+            </div>
+          </div>
+
+          <div class="form__right">
+            <div>
+              <label for="especie">*Espécie</label>
+              <select name="especie" id="especies" multiple>
+                <option value="espécie">Espécie</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="add_foto">Adicionar Foto</label>
+              <input type="file" name="add_foto" id="add_foto" />
+            </div>
+
+            <div class="check_poderes">
+              <label for="poderes">Poderes</label><br />
+
+              <div>
+                <input type="checkbox" name="poder1" id="poder1" value="Voar" />
+                <label for="poder1">Voar</label><br />
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="poder2"
+                  id="poder2"
+                  value="Inteligencia"
+                />
+                <label for="poder2">Super Inteligência</label><br />
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="poder3"
+                  id="poder3"
+                  value="Vista_laser"
+                />
+                <label for="poder3">Vista de raio laser</label><br />
+              </div>
+
+              <div>
+                <input type="checkbox" name="poder4" id="poder4" value="Rico" />
+                <label for="poder4">Super rico</label><br />
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="radio_tipo">
+              <label for="personagens">Tipos de Personagens</label>
+
+              <div>
+                <input type="radio" id="heroi" name="tipo_hero" value="hero" />
+                <label for="heroi">Herói / Heroína</label><br />
+              </div>
+
+              <div>
+                <input type="radio" id="vilao" name="tipo_hero" value="vilao" />
+                <label for="vilao">Vilão / Vilã</label><br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>Adicionar</button>
+      </div>
+    </main>
+
+    <footer>
+      <h2>Todos os direitos reservados a FRONT END 1</h2>
+    </footer>
+  </body>
+</html>

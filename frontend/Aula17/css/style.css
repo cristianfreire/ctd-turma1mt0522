@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  --card-background: #f3f3f3;
+  --primary-color: #00669f;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh; /*pega toda a altura vísivel do navegador */
+  display: flex;
+  flex-direction: column;
+}
+
+.add {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  /*height: 100vh;*/
+  top: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+main {
+  width: 100%;
+
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bar-descount {
+  height: 38px;
+  width: 100%;
+  background-color: #1cd1b0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.title {
+  width: 100%;
+  height: 101px;
+  background-color: var(--primary-color);
+  padding: 5px;
+  font-size: 2rem;
+  box-shadow: 0px 12px 11px -8px rgba(0, 0, 0, 0.58);
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.card {
+  border: 3px solid var(--primary-color);
+  width: 374px;
+  height: 580px;
+
+  background-color: var(--card-background);
+  border-radius: 16px 16px 0px 0px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 7px 6px -1px rgba(0, 0, 0, 0.47);
+}
+
+.card__img-background {
+  width: 100%;
+  height: 210px;
+  position: relative;
+}
+
+.background-batman {
+  background-image: url("../img/background-batman.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-arlequina {
+  background-image: url("../img/background-arlequina.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__icone {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.card__img-user img {
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 115px;
+  top: 130px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+  margin-top: 65px;
+}
+
+.card__desc {
+  margin: 10px 20px;
+  text-align: justify;
+  flex-grow: 1;
+}
+
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--primary-color);
+  text-decoration: none;
+
+  width: 145.34px;
+  height: 54.76px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #f3f3f3;
+
+  margin: 20px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  height: 51px;
+  width: 100%;
+  color: #fff9f9;
+  padding: 10px;
+  display: flex;
+  flex-grow: 0;
+}
+
+@media (max-width: 676px) {
+  html {
+    font-size: 10px;
+  }
+
+  .bar-descount {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+
+  .card {
+    padding: 10px;
+    width: 270px;
+    height: 80vh;
+
+    font-size: 1.5rem;
+
+    background-color: var(--card-background);
+    border-radius: 16px 16px 0px 0px;
+  }
+
+  .card__img-user img {
+    position: absolute;
+    left: 60px;
+    top: 90px;
+  }
+}
