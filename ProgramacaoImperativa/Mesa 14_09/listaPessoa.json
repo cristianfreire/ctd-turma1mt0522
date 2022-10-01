@@ -1,0 +1,77 @@
+[
+  {
+    "nome": "Nome 1",
+    "sexo": "M",
+    "altura": "1.65"
+  },
+  {
+    "nome": "Nome 2",
+    "sexo": "M",
+    "altura": "1.75"
+  },
+  {
+    "nome": "Nome 3",
+    "sexo": "F",
+    "altura": "1.45"
+  },
+  {
+    "nome": "Nome 4",
+    "sexo": "M",
+    "altura": "1.75"
+  },
+  {
+    "nome": "Nome 5",
+    "sexo": "F",
+    "altura": "1.85"
+  },
+  {
+    "nome": "Nome 6",
+    "sexo": "M",
+    "altura": "1.65"
+  },
+  {
+    "nome": "Nome 7",
+    "sexo": "F",
+    "altura": "1.35"
+  },
+  {
+    "nome": "Nome 8",
+    "sexo": "M",
+    "altura": "1.83"
+  },
+  {
+    "nome": "Nome 9",
+    "sexo": "F",
+    "altura": "1.56"
+  },
+  {
+    "nome": "Nome 10",
+    "sexo": "F",
+    "altura": "1.58"
+  },
+  {
+    "nome": "Nome 11",
+    "sexo": "F",
+    "altura": "1.85"
+  },
+  {
+    "nome": "Nome 12",
+    "sexo": "M",
+    "altura": "2.15"
+  },
+  {
+    "nome": "Nome 13",
+    "sexo": "M",
+    "altura": "1.65"
+  },
+  {
+    "nome": "Nome 14",
+    "sexo": "F",
+    "altura": "1.65"
+  },
+  {
+    "nome": "Nome 15",
+    "sexo": "M",
+    "altura": "1.84"
+  }
+]

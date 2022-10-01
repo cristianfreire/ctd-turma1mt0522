@@ -1,0 +1,77 @@
+[
+  {
+    "nome": "Nome 1",
+    "idade": 16,
+    "avaliacao": 3
+  },
+  {
+    "nome": "Nome 2",
+    "idade": 18,
+    "avaliacao": 1
+  },
+  {
+    "nome": "Nome 3",
+    "idade": 52,
+    "avaliacao": 1
+  },
+  {
+    "nome": "Nome 4",
+    "idade": 85,
+    "avaliacao": 1
+  },
+  {
+    "nome": "Nome 5",
+    "idade": 45,
+    "avaliacao": 2
+  },
+  {
+    "nome": "Nome 6",
+    "idade": 53,
+    "avaliacao": 2
+  },
+  {
+    "nome": "Nome 7",
+    "idade": 12,
+    "avaliacao": 3
+  },
+  {
+    "nome": "Nome 8",
+    "idade": 25,
+    "avaliacao": 2
+  },
+  {
+    "nome": "Nome 9",
+    "idade": 62,
+    "avaliacao": 2
+  },
+  {
+    "nome": "Nome 10",
+    "idade": 11,
+    "avaliacao": 3
+  },
+  {
+    "nome": "Nome 11",
+    "idade": 16,
+    "avaliacao": 3
+  },
+  {
+    "nome": "Nome 12",
+    "idade": 23,
+    "avaliacao": 1
+  },
+  {
+    "nome": "Nome 13",
+    "idade": 15,
+    "avaliacao": 3
+  },
+  {
+    "nome": "Nome 14",
+    "idade": 18,
+    "avaliacao": 2
+  },
+  {
+    "nome": "Nome 15",
+    "idade": 16,
+    "avaliacao": 3
+  }
+]

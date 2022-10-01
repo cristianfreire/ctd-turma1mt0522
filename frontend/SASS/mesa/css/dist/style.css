@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background: black;
+  color: white;
+  padding: 20px;
+}
+header h1 {
+  font-size: 30px;
+}
+header h1::first-letter {
+  color: red;
+}
+header h2,
+header h3 {
+  text-align: center;
+  padding: 15px 0;
+}
+header ul {
+  display: flex;
+  gap: 5px;
+}
+header ul li {
+  list-style-type: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 9px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+header ul li a:hover {
+  background-color: red;
+  color: black;
+}
+
+main {
+  padding: 15px 60px;
+}
+main .card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  text-align: center;
+}
+main .card-grid .card-game img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
